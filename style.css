@@ -11,3 +11,19 @@
 
 /* Theme customization starts here
 ------------------------------------------------------- */
+:root {
+  --primary-color:#1e93c8;
+  --background-color: #363636;
+}
+
+header#main-header {
+    background-color: var(--background-color);
+}
+
+div#logo {
+    max-height: 100%;
+}
+
+ul#top-menu li a {
+    color: var(--primary-color);
+}
