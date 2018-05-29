@@ -10,6 +10,6 @@ add_action( 'wp_enqueue_scripts', 'blackandbluefishing_enqueue_styles' );
 add_action( 'wp_enqueue_scripts', 'blackandbluefishing_scripts' );
 
 function blackandbluefishing_scripts() {
-  wp_enqueue_script( 'blackandbluefishing-script', get_stylesheet_directory_uri() . '/bb-script.js', array( 'jquery' )
+  wp_enqueue_script( 'blackandbluefishing-script', get_stylesheet_directory_uri() . '/bb-scripts.js', array( 'jquery' )
   );
 }
