@@ -28,9 +28,12 @@ header#main-header {
 ul#top-menu li a {
     color: var(--primary-color);
 }
+
 h1.et_pb_module_header {
-    font-family: var(--font-primary);
+    font-family: var(--font-primary) !important;
     font-size: 3rem !important;
     font-style: italic;
     text-transform: capitalize !important;
+    letter-spacing: -1px !important;
+    line-height: 1em !important;
 }
