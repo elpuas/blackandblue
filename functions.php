@@ -13,3 +13,26 @@ function blackandbluefishing_scripts() {
   wp_enqueue_script( 'blackandbluefishing-script', get_stylesheet_directory_uri() . '/bb-scripts.js', array( 'jquery' )
   );
 }
+
+
+/**
+* Add SVG Support
+*/
+function cc_mime_types($mimes) {
+  $mimes['svg'] = 'image/svg+xml';
+  return $mimes;
+}
+add_filter('upload_mimes', 'cc_mime_types');
+
+
+/**
+* Page Slug Body Class
+*/
+function add_slug_body_class( $classes ) {
+	global $post;
+	if ( isset( $post ) ) {
+	$classes[] = $post->post_type . '-' . $post->post_name;
+	}
+	return $classes;
+	}
+	add_filter( 'body_class', 'add_slug_body_class' );
