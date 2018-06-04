@@ -21,8 +21,8 @@ header#main-header {
     background-color: var(--background-color);
 }
 
-div#logo {
-    max-height: 100%;
+.et_header_style_split .centered-inline-logo-wrap a {
+    height: 150px;
 }
 
 ul#top-menu li a {
