@@ -37,3 +37,11 @@ h1.et_pb_module_header {
     letter-spacing: -1px !important;
     line-height: 1em !important;
 }
+
+.page div#left-area {
+  width: 100% !important;
+}
+
+.page #main-content .container:before {
+    display: none !important;
+}
