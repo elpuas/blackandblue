@@ -46,3 +46,111 @@ h1.et_pb_module_header {
     height: 0 !important;
     background-color: transparent !important;
 }
+
+/*
+Page Carousel
+ ------------------------------------------------------- */
+ /*Hide the section overflow*/
+ .ds-carousel-section {
+     width: 100%;
+     overflow: hidden;
+ }
+
+ /*Set the row width*/
+ .ds-carousel-row {
+     overflow: hidden;
+     width: 250vw;
+     max-width: 250vw;
+ }
+
+ @media all and (max-width: 1024px) {
+ /*Override Divi's width setting on tablets*/
+     .ds-carousel-section .ds-carousel-row {
+         max-width: 750vw !important;
+     }
+ }
+
+ @media all and (max-width: 479px) {
+ /*Override Divi's width setting on mobiles*/
+     .ds-carousel-section .ds-carousel-row {
+         max-width: 500vw !important;
+     }
+ }
+
+ /*Style the navigation arrows*/
+ #ds-arrow-left,
+ #ds-arrow-right {
+     color: #fff;
+     background: gray;
+     font-family: 'ETModules';
+     font-size: 30px;
+     padding: 5px 30px;
+     border-style: none;
+     border-radius: 0;
+     cursor: pointer;
+     -webkit-box-shadow: 2px 2px 2px 0 rgba(0, 0, 0, 0.3);
+     box-shadow: 2px 2px 2px 0 rgba(0, 0, 0, 0.3);
+     -webkit-transition: all 0.3s;
+     transition: all 0.3s;
+ }
+
+ /*Position the left arrow*/
+ #ds-arrow-left {
+     float: right;
+     margin-right: 5px;
+ }
+
+ /*Position the right arrow*/
+ #ds-arrow-right {
+     float: left;
+     margin-left: 5px;
+ }
+
+ /*Style navigation arrows on hover*/
+ #ds-arrow-left:hover,
+ #ds-arrow-right:hover {
+     -webkit-box-shadow: 3px 3px 6px 1px rgba(0, 0, 0, 0.2);
+     box-shadow: 3px 3px 6px 1px rgba(0, 0, 0, 0.2);
+ }
+
+ /*Style navigation arrows on click*/
+ #ds-arrow-left:active,
+ #ds-arrow-right:active {
+     -webkit-box-shadow: 2px 2px 5px 0 rgba(0, 0, 0, 0.2) inset;
+     box-shadow: 2px 2px 5px 0 rgba(0, 0, 0, 0.2) inset;
+ }
+
+ /*Make sure the modules span their entire container*/
+ .ds-carousel-module .column {
+     float: left;
+     width: 100% !important;
+     margin-right: 0 !important;
+ }
+
+ /*Set the module width*/
+ .ds-carousel-module {
+     width: 33.333vw; /*Change this value to increase or decrease the module displayed per page*/
+     padding: 0 30px;
+     float: left;
+     position: relative;
+     margin-bottom: 0 !important;
+ }
+
+ /*Adjust for smaller screens*/
+ @media all and (max-width: 1024px) {
+     /*Show 3 modules per page on tablets*/
+     .ds-carousel-module {
+         width: 33.33vw;
+     }
+     /*Align the navigation on smaller screens*/
+     #ds-arrow-row .et_pb_column {
+         width: 50% !important;
+     }
+ }
+
+ @media all and (max-width: 479px) {
+     /*Show 1 module per page on mobiles*/
+     .ds-carousel-module {
+         width: 100vw;
+     }
+ }
