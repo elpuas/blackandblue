@@ -47,6 +47,10 @@ h1.et_pb_module_header {
     background-color: transparent !important;
 }
 
+.et_pb_section.et_pb_section_1.et_pb_with_background.et_section_regular,.et_pb_section_2.ds-carousel-section.et_pb_with_background.et_section_regular, .et_pb_section.et_pb_section_1.et_pb_with_background.et_section_regular .et_pb_row.et_pb_row_0 {
+    padding: 1rem 0;
+}
+
 /*
 Page Carousel
  ------------------------------------------------------- */
