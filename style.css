@@ -43,5 +43,6 @@ h1.et_pb_module_header {
 }
 
 .page #main-content .container:before {
-    display: none !important;
+    height: 0 !important;
+    background-color: transparent !important;
 }
