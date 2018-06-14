@@ -5,16 +5,18 @@ jQuery(document).ready(function($){
    var eventFired = 0;
 
    if ($(window).width() < 425) {
-       console.log('Less than 960');
-       $(".bb__home--about-grid .et_pb_column_1_3").insertAfter(".bb__home--about-grid .et_pb_column_2_3");
-
-       $( "li" ).each(function() {
-         $( this ).addClass( "foo" );
+       console.log('Less than 425');
+       $("#aboutHeading").insertAfter("#aboutImage");
+       /*
+       $( ".bb__home--about-grid" ).each(function() {
+         $("#aboutHeading").insertAfter("#aboutImage");
       });
+
+      */
 
    }
    else {
-       console.log('More than 960');
+       console.log('More than 425');
        eventFired = 1;
    }
 
