@@ -19,6 +19,9 @@
 
 h1, h2, h3 {
   font-family: var(--font-primary) !important;
+  font-style: italic;
+  text-transform: capitalize !important;
+  letter-spacing: -1px !important;
 }
 
 header#main-header {
@@ -100,9 +103,11 @@ h4.et_pb_module_header:before {
   }
   .bb__home--about-grid .et_pb_column_1_3 {
     order: 2;
+    width: 100%;
   }
   .bb__home--about-grid .et_pb_column_2_3 {
     order: 1;
+    width: 100%;
   }
 }
 
