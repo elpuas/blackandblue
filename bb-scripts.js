@@ -1,5 +1,22 @@
 jQuery(document).ready(function($){
  console.log("%c Made with  💖 and a lot of  ☕ by el.puas | https://elpuas.com ", "color:#fff;background:#000;");
+
+ $(window).resize(function() {
+   var eventFired = 0;
+
+   if ($(window).width() < 425) {
+       console.log('Less than 960');
+
+   }
+   else {
+       console.log('More than 960');
+       eventFired = 1;
+   }
+
+});
+
+
+
 });
 
 (function ($) {
