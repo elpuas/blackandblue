@@ -6,6 +6,8 @@ jQuery(document).ready(function($){
 
    if ($(window).width() < 425) {
        console.log('Less than 960');
+       $(".et_pb_column_1_3").insertAfter(".et_pb_column_2_3");
+
 
    }
    else {
