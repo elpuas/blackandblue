@@ -1,30 +1,27 @@
 jQuery(document).ready(function($){
  console.log("%c Made with  💖 and a lot of  ☕ by el.puas | https://elpuas.com ", "color:#fff;background:#000;");
 
+ if ($(window).width() < 425) {
+     $("#aboutHeading").insertAfter("#aboutImage");
+    }
+
  $(window).resize(function() {
+
    var eventFired = 0;
 
    if ($(window).width() < 425) {
-       console.log('Less than 425');
        $("#aboutHeading").insertAfter("#aboutImage");
-       /*
-       $( ".bb__home--about-grid" ).each(function() {
-         $("#aboutHeading").insertAfter("#aboutImage");
-      });
+      }
 
-      */
-
-   }
    else {
-       console.log('More than 425');
        eventFired = 1;
-   }
-
+     }
+ });
 });
 
-
-
-});
+/*
+Slider Script
+ */
 
 (function ($) {
 
