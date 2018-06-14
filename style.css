@@ -60,6 +60,24 @@ h1.et_pb_module_header {
     border-color: rgba(174, 160, 151, 0.5);
 }
 
+.home .et_pb_section_2 h4.et_pb_module_header a {
+    color: #aea097;
+    font-size: 2rem;
+}
+
+h4.et_pb_module_header:before {
+    content: '';
+    width: 80%;
+    background: #aea097;
+    height: 1px;
+    display: block;
+    margin: 10px auto;
+}
+
+.bb__home--about-grid {
+    margin-bottom: 15.75vh;
+}
+
 /*
 Page Carousel
  ------------------------------------------------------- */
@@ -93,18 +111,22 @@ Page Carousel
  /*Style the navigation arrows*/
  #ds-arrow-left,
  #ds-arrow-right {
-     color: #fff;
-     background: gray;
      font-family: 'ETModules';
      font-size: 30px;
-     padding: 5px 30px;
      border-style: none;
-     border-radius: 0;
      cursor: pointer;
-     -webkit-box-shadow: 2px 2px 2px 0 rgba(0, 0, 0, 0.3);
-     box-shadow: 2px 2px 2px 0 rgba(0, 0, 0, 0.3);
      -webkit-transition: all 0.3s;
      transition: all 0.3s;
+ }
+
+ .home #ds-arrow-left, .home #ds-arrow-right {
+     color: #cec5be;
+     background: transparent;
+     padding: 10px;
+     -webkit-box-shadow: none;
+     box-shadow: none;
+     border: 1px solid;
+     border-radius: 50%;
  }
 
  /*Position the left arrow*/
