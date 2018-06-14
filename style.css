@@ -17,6 +17,10 @@
   --font-primary: 'Libre Baskerville', serif !important;
 }
 
+h1, h2, h3 {
+  font-family: var(--font-primary) !important;
+}
+
 header#main-header {
     background-color: var(--background-color);
 }
@@ -76,6 +80,30 @@ h4.et_pb_module_header:before {
 
 .bb__home--about-grid {
     margin-bottom: 15.75vh;
+}
+
+.bb__home--about-grid .et_pb_column_1_3 {
+    padding-top: 10vw;
+}
+
+.bb__home--about-grid .et_pb_column_1_3 h3 {
+
+}
+
+.bb__home--about-grid .et_pb_column_1_3 p {
+
+}
+
+@media only screen and (max-width: 425px) {
+  .bb__home--about-grid {
+    display: flex;
+  }
+  .bb__home--about-grid .et_pb_column_1_3 {
+    order: 2;
+  }
+  .bb__home--about-grid .et_pb_column_2_3 {
+    order: 1;
+  }
 }
 
 /*
