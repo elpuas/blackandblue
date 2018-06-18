@@ -109,8 +109,8 @@ h4.et_pb_module_header:before {
 .bb__home-hero-title h3 {
     max-width: 80%;
     margin: 0 auto;
-    font-size: 2rem;
-    letter-spacing: 0;
+    font-size: 2rem !important;
+    letter-spacing: 0 !important;
 }
 
 @media only screen and (max-width: 425px) {
