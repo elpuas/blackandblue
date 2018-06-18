@@ -45,11 +45,11 @@ h1.et_pb_module_header {
     line-height: 1em !important;
 }
 
-.page div#left-area {
+.page div#left-area, .archive div#left-area {
   width: 100% !important;
 }
 
-.page #main-content .container:before {
+.page #main-content .container:before, .archive #main-content .container:before {
     height: 0 !important;
     background-color: transparent !important;
 }
@@ -115,8 +115,17 @@ h4.et_pb_module_header:before {
     letter-spacing: 0 !important;
 }
 
+#top-menu li.mega-menu>ul {
+    padding: 30px 15vw;
+}
+
 @media only screen and (max-width: 425px) {
 
+}
+
+.container.clearfix.et_menu_container {
+    width: 100%;
+    max-width: none;
 }
 
 /*
