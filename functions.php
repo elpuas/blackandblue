@@ -42,5 +42,5 @@ function add_slug_body_class( $classes ) {
    */
    add_action('wp_footer', 'bb_call_to_action');
    function bb_call_to_action() {
-       echo '<button class="bb-form-trigger">Open Modal</button>'; 
+       echo '<button class="popmake-200 popmake-bb-form-generic">Open Modal</button>';
    }
