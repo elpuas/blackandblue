@@ -36,3 +36,11 @@ function add_slug_body_class( $classes ) {
 	return $classes;
 	}
 	add_filter( 'body_class', 'add_slug_body_class' );
+
+  /**
+   * Add code to Footer
+   */
+   add_action('wp_footer', 'bb_call_to_action');
+   function bb_call_to_action() {
+       echo '<button class="eModal-1">Open Modal</button>'; 
+   }
