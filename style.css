@@ -94,6 +94,7 @@ h4.et_pb_module_header:before {
     color: var(--primary-color);
     font-size: 2rem;
     line-height: 1.25em;
+    letter-spacing: 2px !important;
 }
 
 .bb__home--about-grid .et_pb_column_1_3 p {
@@ -128,6 +129,12 @@ h4.et_pb_module_header:before {
     width: 100%;
     max-width: none;
 }
+
+div#sbi_images {
+    padding: 0 !important;
+}
+
+
 
 /*
 Page Carousel
