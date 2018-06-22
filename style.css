@@ -134,6 +134,31 @@ div#sbi_images {
     padding: 0 !important;
 }
 
+.bb__boats-container .bb__boats-container--hero-title h3 {
+    color: #e8e5e0;
+}
+
+.bb__boats-container .bb__boats-container--hero-title h3:after {
+    width: 25%;
+    background-color: #e8e5e0;
+}
+
+.bb__boats-container h2, .bb__boats-container p {
+    color: #e8e5e0;
+  }
+
+  .bb__boats-container p {
+    letter-spacing: 1px !important;
+    font-size: 16px;
+    line-height: 2rem;
+    font-weight: 200;
+}
+
+.bb__boats-container--image-rounded {
+    border-radius: 50% !important;
+    overflow: hidden;
+}
+
 
 
 /*
