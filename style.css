@@ -179,7 +179,10 @@ div#sbi_images {
     border-radius: 0 !important;
 }
 
-
+li.mega-link {
+    max-height: 100px !important;
+    overflow: hidden !important;
+}
 
 /*
 Page Carousel
