@@ -18,7 +18,7 @@
   --font-color: #161616;
 }
 
-h1, h2, h3 {
+h1, h2, h3, h4 {
   font-family: var(--font-primary) !important;
   text-transform: capitalize !important;
   letter-spacing: -1px !important;
@@ -124,6 +124,10 @@ h4.et_pb_module_header:before {
   margin: 0 auto;
   font-size: 2rem !important;
   letter-spacing: 0 !important;
+}
+
+#footer-widgets .footer-widget li:before {
+    content: none !important;
 }
 
 #top-menu li.current-menu-ancestor>a {
