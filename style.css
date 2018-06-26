@@ -91,7 +91,7 @@ h4.et_pb_module_header:before {
 }
 
 .bb__home--about-grid .et_pb_column_1_3 {
-  padding-top: 10vw;
+  padding-top: 25px;
 }
 
 .bb__home--about-grid .et_pb_column_1_3 h3 {
@@ -164,9 +164,9 @@ div#sbi_images {
 
 .bb__boats-container p, .et_pb_header_content_wrapper p, .et_pb_text_inner p, p {
   letter-spacing: 1px !important;
-  font-size: 16px;
+  font-size: 18px;
   line-height: 2rem;
-  font-weight: 200;
+  font-weight: 400;
 }
 
 .bb__boats-container--image-rounded {
