@@ -20,7 +20,6 @@
 
 h1, h2, h3 {
   font-family: var(--font-primary) !important;
-  font-style: italic;
   text-transform: capitalize !important;
   letter-spacing: -1px !important;
 }
@@ -41,7 +40,6 @@ ul#top-menu li a {
 h1.et_pb_module_header {
     font-family: var(--font-primary) !important;
     font-size: 3rem !important;
-    font-style: italic;
     text-transform: capitalize !important;
     letter-spacing: -1px !important;
     line-height: 1em !important;
