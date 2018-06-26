@@ -121,6 +121,10 @@ h4.et_pb_module_header:before {
     padding: 30px 15vw;
 }
 
+ul#top-menu li ul.sub-menu li a {
+    color: black;
+}
+
 @media only screen and (max-width: 425px) {
 
 }
@@ -157,6 +161,12 @@ div#sbi_images {
 .bb__boats-container--image-rounded {
     border-radius: 50% !important;
     overflow: hidden;
+}
+
+#main-content {
+    background-color: transparent;
+    background-image: url('http://altheaadventures.elpuasdev.com/blog/wp-content/uploads/2018/06/ricepaper.png') !important;
+    background-size: 25%;
 }
 
 
