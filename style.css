@@ -173,20 +173,10 @@ div#sbi_images {
     color: var(--color-primary);
 }
 
-.mega-link > a {
-    text-align: center;
-    font-size: 20px !important;
-    text-transform: uppercase;
-    font-weight: 400 !important;
-    letter-spacing: 3px;
-}
-
 .mega-link > a img {
-    margin-bottom: 8px;
-    -webkit-border-radius: 5px;
-    -moz-border-radius: 5px;
-    border-radius: 5px;
-
+    -webkit-border-radius: 0 !important;
+    -moz-border-radius: 0 !important;
+    border-radius: 0 !important;
 }
 
 
