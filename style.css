@@ -70,6 +70,12 @@ h1.et_pb_module_header {
 .home .et_pb_section_2 h4.et_pb_module_header a {
     color: var(--font-color);
     font-size: 2rem;
+    font-family: var(--font-primary);
+    text-transform: initial;
+}
+
+.home .et_pb_section.et_pb_section_1, .home .et_pb_section.et_pb_section_2, .home .et_pb_section.et_pb_section_3, .home .et_pb_section.et_pb_section_4 {
+    padding: 0 !important;
 }
 
 h4.et_pb_module_header:before {
