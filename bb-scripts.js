@@ -100,4 +100,6 @@ $et_top_menu.find( 'li' ).click( function() {
            et_menu_hover_triggered = true;
  }
 
+});
+
 })(jQuery)
