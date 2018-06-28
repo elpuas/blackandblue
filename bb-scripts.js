@@ -85,4 +85,19 @@ $(document).ready(function() {
     mn_carousel_init();
 });
 
+/*
+ Menu onClick
+ */
+
+var $et_top_menu = $( 'ul.nav' );
+
+$et_top_menu.unbind('mouseenter mouseleave');
+
+$et_top_menu.find( 'li' ).click( function() {
+    if ( ! $(this).closest( 'li.mega-menu' ).length || $(this).hasClass( 'mega-menu' ) ) {
+    $(this).addClass( 'et-show-dropdown' );
+    $(this).removeClass( 'et-hover' ).addClass( 'et-hover' );
+           et_menu_hover_triggered = true;
+ }
+
 })(jQuery)

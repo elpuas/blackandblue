@@ -187,12 +187,6 @@ div#sbi_images {
   margin-top: 5px;
 }
 
-#main-content {
-  background-color: transparent;
-  background-image: url('http://altheaadventures.elpuasdev.com/blog/wp-content/uploads/2018/06/ricepaper.png') !important;
-  background-size: 25%;
-}
-
 #top-menu li.mega-menu>ul>li>a:first-child {
   color: var(--color-primary);
 }
