@@ -13,11 +13,11 @@
 
 @font-face {
     font-family: 'crosstenextrabold';
-    src: url(/wp-content/themes/blackandbluefishing/fonts/crossten_extrabold-webfont.eot);
-    src: url(/wp-content/themes/blackandbluefishing/fonts/crossten_extrabold-webfont.eot?#iefix) format('embedded-opentype'),
-         /*url(/wp-content/themes/blackandbluefishing/fonts/crossten_extrabold-webfont.woff2) format('woff2'),
-         url(/wp-content/themes/blackandbluefishing/fonts/crossten_extrabold-webfont.woff) format('woff'),
-         url(/wp-content/themes/blackandbluefishing/fonts/crossten_extrabold-webfont.ttf) format('truetype')*/;
+    src: url('/wp-content/themes/blackandbluefishing/fonts/crossten_extrabold-webfont.eot');
+    src: url('/wp-content/themes/blackandbluefishing/fonts/crossten_extrabold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/wp-content/themes/blackandbluefishing/fonts/crossten_extrabold-webfont.woff2') format('woff2'),
+         url('/wp-content/themes/blackandbluefishing/fonts/crossten_extrabold-webfont.woff') format('woff'),
+         url('/wp-content/themes/blackandbluefishing/fonts/crossten_extrabold-webfont.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 
@@ -27,9 +27,9 @@
     font-family: 'onrampregular';
     src: url('http://blackandbluefishing.elpuasdev.com/wp-content/themes/blackandbluefishing/fonts/onramp-webfont.eot');
     src: url('http://blackandbluefishing.elpuasdev.com/wp-content/themes/blackandbluefishing/fonts/onramp-webfont.eot?#iefix') format('embedded-opentype'),
-         /* url('http://blackandbluefishing.elpuasdev.com/wp-content/themes/blackandbluefishing/fonts/onramp-webfont.woff2') format('woff2'),
+         url('http://blackandbluefishing.elpuasdev.com/wp-content/themes/blackandbluefishing/fonts/onramp-webfont.woff2') format('woff2'),
          url('http://blackandbluefishing.elpuasdev.com/wp-content/themes/blackandbluefishing/fonts/onramp-webfont.woff') format('woff'),
-         url('http://blackandbluefishing.elpuasdev.com/wp-content/themes/blackandbluefishing/fonts/onramp-webfont.ttf') format('truetype')*/;
+         url('http://blackandbluefishing.elpuasdev.com/wp-content/themes/blackandbluefishing/fonts/onramp-webfont.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 
@@ -40,8 +40,8 @@
 :root {
   --primary-color: #1e93c8;
   --background-color: #363636;
-  --font-primary: 'crosstenextrabold' !important;
-  --font-secondary: 'onrampregular' !important;
+  --font-primary: 'crosstenextrabold', Helvetica, sans-serif !important;
+  --font-secondary: 'onrampregular', Arial, sans-serif !important;
   --font-color: #161616;
 }
 
