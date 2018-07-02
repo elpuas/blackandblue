@@ -11,10 +11,37 @@
 /* Theme customization starts here
 ------------------------------------------------------- */
 
+@font-face {
+    font-family: 'crosstenextrabold';
+    src: url('/wp-content/themes/blackandbluefishing/fonts/crossten_extrabold-webfont.eot');
+    src: url('/wp-content/themes/blackandbluefishing/fonts/crossten_extrabold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/wp-content/themes/blackandbluefishing/fonts/crossten_extrabold-webfont.woff2') format('woff2'),
+         url('/wp-content/themes/blackandbluefishing/fonts/crossten_extrabold-webfont.woff') format('woff'),
+         url('/wp-content/themes/blackandbluefishing/fonts/crossten_extrabold-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'onrampregular';
+    src: url('/wp-content/themes/blackandbluefishing/fonts/onramp-webfont.eot');
+    src: url('/wp-content/themes/blackandbluefishing/fonts/onramp-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/wp-content/themes/blackandbluefishing/fonts/onramp-webfont.woff2') format('woff2'),
+         url('/wp-content/themes/blackandbluefishing/fonts/onramp-webfont.woff') format('woff'),
+         url('/wp-content/themes/blackandbluefishing/fonts/onramp-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
 :root {
   --primary-color: #1e93c8;
   --background-color: #363636;
-  --font-primary: 'Libre Baskerville', serif !important;
+  --font-primary: 'crosstenextrabold' !important;
+  --font-secondary: 'onrampregular' !important;
   --font-color: #161616;
 }
 
@@ -26,7 +53,7 @@ h1, h2, h3, h4 {
 
 header#main-header {
   background-color: var(--primary-color);
-  background-image: url('http://blackandbluefishing.elpuasdev.com/wp-content/uploads/2018/06/BlackBlue-webheader-1200x200-texture.jpg');
+  background-image: url('/wp-content/uploads/2018/06/BlackBlue-webheader-1200x200-texture.jpg');
 }
 
 .et_header_style_split .centered-inline-logo-wrap a {
@@ -505,7 +532,7 @@ div#pum-200 {
   background-color: var(--primary-color);
   color: white;
   text-indent: -9999px;
-  background-image: url(/wp-content/uploads/2018/06/sailing-boat.png);
+  background-image: url('/wp-content/uploads/2018/06/sailing-boat.png');
   background-size: 80%;
   background-repeat: no-repeat;
   background-position: center;

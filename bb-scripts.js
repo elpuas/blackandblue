@@ -97,7 +97,7 @@ $et_top_menu.find( 'li' ).click( function() {
     if ( ! $(this).closest( 'li.mega-menu' ).length || $(this).hasClass( 'mega-menu' ) ) {
     $(this).addClass( 'et-show-dropdown' );
     $(this).removeClass( 'et-hover' ).addClass( 'et-hover' );
-           et_menu_hover_triggered = true;
+     et_menu_hover_triggered = true;
  }
 
 });
