@@ -674,5 +674,24 @@ button.pum-form__submit.pum-sub-form-submit {
 }
 
 .et-fixed-header #top-menu ul.sub-menu li.current-menu-item>a {
-  color: var(--primary-color)!important;
+  color: black!important;
+}
+
+/* Template About */
+
+.althea__section-container h2 {
+  font-size: 4rem;
+  text-transform: uppercase !important;
+}
+
+.althea__section-container .et_pb_divider_0:before {
+  border-top-color: var(--primary-color) !important;
+}
+
+.et_pb_text_0.et_pb_text {
+  color:black!important;
+}
+
+h1.et_pb_module_header {
+  text-transform: uppercase !important;
 }
