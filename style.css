@@ -456,9 +456,9 @@ Page Carousel
     color:whitesmoke !important;
   }
   .mobile_nav.opened .mobile_menu_bar:before {
-    content: "x";
+    content: "E";
     color: #1d1d1d !important;
-    border: 1px solid #1d1d1d;
+    border: none;
     width: 30px;
     height: 30px;
     border-radius: 50%;
