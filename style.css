@@ -11,37 +11,11 @@
 /* Theme customization starts here
 ------------------------------------------------------- */
 
-@font-face {
-    font-family: 'crosstenextrabold';
-    src: url('/wp-content/themes/blackandbluefishing/fonts/crossten_extrabold-webfont.eot');
-    src: url('/wp-content/themes/blackandbluefishing/fonts/crossten_extrabold-webfont.eot?#iefix') format('embedded-opentype'),
-         url('/wp-content/themes/blackandbluefishing/fonts/crossten_extrabold-webfont.woff2') format('woff2'),
-         url('/wp-content/themes/blackandbluefishing/fonts/crossten_extrabold-webfont.woff') format('woff'),
-         url('/wp-content/themes/blackandbluefishing/fonts/crossten_extrabold-webfont.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
-
-}
-
-@font-face {
-    font-family: 'onrampregular';
-    src: url('/wp-content/themes/blackandbluefishing/fonts/onramp-webfont.eot');
-    src: url('/wp-content/themes/blackandbluefishing/fonts/onramp-webfont.eot?#iefix') format('embedded-opentype'),
-         url('/wp-content/themes/blackandbluefishing/fonts/onramp-webfont.woff2') format('woff2'),
-         url('/wp-content/themes/blackandbluefishing/fonts/onramp-webfont.woff') format('woff'),
-         url('/wp-content/themes/blackandbluefishing/fonts/onramp-webfont.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
-
-}
-
-
-
 :root {
   --primary-color: #1e93c8;
   --background-color: #363636;
-  --font-primary: 'crosstenextrabold', Helvetica, sans-serif !important;
-  --font-secondary: 'onrampregular', Arial, sans-serif !important;
+  --font-primary: 'Open Sans', Helvetica, sans-serif !important;
+  --font-secondary: 'Passion One', cursive !important;
   --font-color: #161616;
 }
 
