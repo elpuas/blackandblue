@@ -558,3 +558,7 @@ button.pum-form__submit.pum-sub-form-submit {
   text-transform: uppercase;
   border-radius: 4px;
 }
+
+.pum-form__field {
+  text-align: left !important;
+}
