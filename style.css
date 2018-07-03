@@ -613,4 +613,36 @@ button.pum-form__submit.pum-sub-form-submit {
     padding-left: 0;
     margin-left: 0;
   }
+  .et_mobile_menu li a {
+    float: initial !important;
+  }
+
+  ul.sub-menu li:not(.mega-link) a {
+    font-size: 12px !important;
+  }
+  li.mega-link {
+    margin-bottom: 15px;
+  }
+  ul.sub-menu li:not(.mega-link) {
+    padding-bottom: 10px !important;
+  }
+  /* Section One */
+  h1.et_pb_module_header {
+    font-size: 4rem !important;
+  }
+  /* Generic Title/Subtitle */
+  .bb__home--about-grid .et_pb_text_4 h3, .et_pb_text_0 h2 {
+    font-size: 4rem !important;
+    line-height: 3rem;
+    text-transform: uppercase !important;
+  }
+
+  .bb__about--section-subtitle h3 {
+    font-size: 2.5rem;
+    margin-top: 2rem;
+  }
+
+  .et_pb_fullwidth_header .et_pb_fullwidth_header_container.center .header-content {
+    width: 95%;
+  }
 }
