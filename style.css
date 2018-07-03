@@ -64,6 +64,10 @@ h1.et_pb_module_header {
   padding-top: 1.5rem !important;
 }
 
+body:not(.home) p {
+  font-weight: 400 !important;
+}
+
 .bb__outline-button {
   width: 100%;
   text-align: center;
@@ -406,7 +410,7 @@ Page Carousel
     padding-top: 20px;
   }
   .et_mobile_menu li a {
-    color: #fff !important;
+    color: #1b1d1e !important;
     width: 100%;
     float: left;
     border: none !important;
@@ -578,6 +582,21 @@ button.pum-form__submit.pum-sub-form-submit {
     width: 300px;
     margin-left: calc(100% - 300px);
     padding-top: 10px;
+    top: -40px;
   }
 
+  .logo_container {
+    text-align: left !important;
+    padding-left: 50px !important;
+  }
+
+  .et_header_style_split .mobile_menu_bar {
+    top: -30px !important;
+}
+
+ul.sub-menu a {
+  margin: 0 !important;
+  padding: 5px !important;
+}
+  
 }
