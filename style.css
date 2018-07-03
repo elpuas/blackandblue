@@ -207,7 +207,7 @@ div#sbi_images {
 }
 
 #top-menu li.mega-menu>ul>li>a:first-child {
-  color: var(--color-primary);
+  color: var(--color-primary) !important;
 }
 
 .mega-link>a img {
