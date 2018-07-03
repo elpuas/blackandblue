@@ -440,11 +440,6 @@ Page Carousel
     transition: transform 0.4s 0s;
   }
   .mobile_nav.opened #mobile_menu {
-    background: -moz-linear-gradient(top, #62278d 0%, #2cc09b 100%);
-    background: -webkit-linear-gradient(top, #62278d 0%, #2cc09b 100%);
-    background: -o-linear-gradient(top, #62278d 0%, #2cc09b 100%);
-    background: -ms-linear-gradient(top, #62278d 0%, #2cc09b 100%);
-    background: linear-gradient(to bottom, #62278d 0%, #2cc09b 100%);
     -webkit-transform: translateX(0);
     -moz-transform: translateX(0);
     -ms-transform: translateX(0);
@@ -561,4 +556,28 @@ button.pum-form__submit.pum-sub-form-submit {
 
 .pum-form__field {
   text-align: left !important;
+}
+
+/* Menu Mobile */
+
+@media only screen and (max-width: 425px ) {
+
+  .et_header_style_split header#main-header .logo_container {
+    width: 80%;
+    float: left;
+  }
+
+  div#et-top-navigation {
+    float: left;
+  }
+
+  span.select_page {
+    display: none !important;
+  }
+  #mobile_menu {
+    width: 300px;
+    margin-left: calc(100% - 300px);
+    padding-top: 10px;
+  }
+
 }
