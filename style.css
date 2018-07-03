@@ -660,7 +660,7 @@ button.pum-form__submit.pum-sub-form-submit {
   .footer-widget div {
     text-align: center;
     width: 100%;
-}
+ }
 }
 
 .et-fixed-header #top-menu li.current-menu-ancestor>a, .et-fixed-header #top-menu li.current-menu-item>a {
@@ -668,7 +668,11 @@ button.pum-form__submit.pum-sub-form-submit {
 }
 
 @media only screen and (min-width: 981px) {
-.et-fixed-header #top-menu li.current-menu-ancestor>a, .et-fixed-header #top-menu li.current-menu-item>a {
+.et-fixed-header #top-menu li.current-menu-ancestor>a, .et-fixed-header #top-menu li.current-menu-item>a, header.et-fixed-header #top-menu li.current-menu-item a {
     color: white!important;
  }
+}
+
+.et-fixed-header #top-menu ul.sub-menu li.current-menu-item>a {
+  color: var(--primary-color)!important;
 }
