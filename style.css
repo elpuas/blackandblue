@@ -14,8 +14,8 @@
 :root {
   --primary-color: #1e93c8;
   --background-color: #363636;
-  --font-primary: 'Open Sans', Helvetica, sans-serif !important;
-  --font-secondary: 'Passion One', cursive !important;
+  --font-primary: 'Passion One', cursive !important;
+  --font-secondary: 'Open Sans', Helvetica, sans-serif !important;
   --font-color: #161616;
 }
 
