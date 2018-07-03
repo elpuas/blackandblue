@@ -171,11 +171,11 @@ div#sbi_images {
   color: #e8e5e0;
 }
 
-.bb__boats-container p, .et_pb_header_content_wrapper p, .et_pb_text_inner p, p {
-  letter-spacing: 1px !important;
+.bb__boats-container p, .et_pb_header_content_wrapper p, .et_pb_text_inner p {
+  letter-spacing: 0.5px !important;
   font-size: 18px;
   line-height: 2rem;
-  font-weight: 400;
+  font-weight: 700;
 }
 
 .bb__boats-container--image-rounded {
