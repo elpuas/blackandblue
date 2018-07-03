@@ -654,11 +654,15 @@ button.pum-form__submit.pum-sub-form-submit {
   } 
 
   .et_pb_fullwidth_header .et_pb_fullwidth_header_container.center .header-content {
-    width: 95%;
+    width: 100%;
   }
 
   .footer-widget div {
     text-align: center;
     width: 100%;
 }
+}
+
+.et-fixed-header #top-menu li.current-menu-ancestor>a, .et-fixed-header #top-menu li.current-menu-item>a {
+  color:whitesmoke!important;
 }
