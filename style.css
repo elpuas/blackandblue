@@ -226,6 +226,14 @@ ul.nav>li a {
   text-align: center;
 }
 
+#main-footer {
+  background-image: url(/wp-content/uploads/2018/06/BlackBlue-webheader-1200x200-texture.jpg);
+}
+
+.footer-widget h4.title {
+  font-size: 1.5rem;
+}
+
 /*
 Page Carousel
  ------------------------------------------------------- */
@@ -501,6 +509,7 @@ div#popmake-200 {
   top: initial !important;
   left: initial !important;
   right: 40px;
+  border-radius: 4px;
 }
 
 div#pum-200 {
@@ -524,4 +533,28 @@ div#pum-200 {
   background-size: 80%;
   background-repeat: no-repeat;
   background-position: center;
+}
+
+div#pum_popup_title_200 {
+  font-family: var(--font-primary);
+  color: var(--primary-color);
+}
+
+div#pum-200 p {
+  font-size: 14px !important;
+}
+
+.pum-theme-194 .pum-content + .pum-close, .pum-theme-default-theme .pum-content + .pum-close {
+  right: 10px !important;
+  top: 10px !important;
+  background-color: var(--primary-color) !important;
+  border-radius: 4px !important;
+}
+
+button.pum-form__submit.pum-sub-form-submit {
+  background-color: var(--primary-color);
+  border: none;
+  color: white;
+  text-transform: uppercase;
+  border-radius: 4px;
 }
