@@ -666,3 +666,9 @@ button.pum-form__submit.pum-sub-form-submit {
 .et-fixed-header #top-menu li.current-menu-ancestor>a, .et-fixed-header #top-menu li.current-menu-item>a {
   color:whitesmoke!important;
 }
+
+@media only screen and (min-width: 981px) {
+.et-fixed-header #top-menu li.current-menu-ancestor>a, .et-fixed-header #top-menu li.current-menu-item>a {
+    color: white!important;
+ }
+}
