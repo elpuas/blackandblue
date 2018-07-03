@@ -355,7 +355,11 @@ Page Carousel
 @media all and (max-width: 479px) {
   /*Show 1 module per page on mobiles*/
   .ds-carousel-module {
-    width: 100vw;
+    max-width: 500vw !important;
+
+  }
+  .ds-arrow-row .et_pb_column_1_2 {
+    width: 50% !important;
   }
 }
 
