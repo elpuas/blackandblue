@@ -617,7 +617,7 @@ button.pum-form__submit.pum-sub-form-submit {
     float: initial !important;
   }
 
-  ul.sub-menu li:not(.mega-link) a {
+  div#et_mobile_nav_menu ul.sub-menu li:not(.mega-link) a {
     font-size: 12px !important;
   }
   li.mega-link {
@@ -628,12 +628,12 @@ button.pum-form__submit.pum-sub-form-submit {
   }
   /* Section One */
   h1.et_pb_module_header {
-    font-size: 4rem !important;
+    font-size: 4.5rem !important;
   }
   /* Generic Title/Subtitle */
-  .bb__home--about-grid .et_pb_text_4 h3, .et_pb_text_0 h2 {
+  .bb__home--about-grid .et_pb_text_4 h3, .et_pb_text_0 h2, .bb__boats-container .bb__boats-container--hero-title h3 {
     font-size: 4rem !important;
-    line-height: 3rem;
+    line-height: 3rem !important;
     text-transform: uppercase !important;
   }
 
@@ -642,7 +642,18 @@ button.pum-form__submit.pum-sub-form-submit {
     margin-top: 2rem;
   }
 
+  .et_pb_header_content_wrapper p {
+    font-size: 16px;
+    letter-spacing: 0 !important;
+    font-weight: 400;
+  } 
+
   .et_pb_fullwidth_header .et_pb_fullwidth_header_container.center .header-content {
     width: 95%;
   }
+
+  .footer-widget div {
+    text-align: center;
+    width: 100%;
+}
 }
