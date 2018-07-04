@@ -66,6 +66,9 @@ h1.et_pb_module_header {
 
 body:not(.home) p {
   font-weight: 400 !important;
+  letter-spacing: 0 !important;
+  color: black;
+  font-size: 16px;
 }
 
 .bb__outline-button {
@@ -684,7 +687,7 @@ button.pum-form__submit.pum-sub-form-submit {
   text-transform: uppercase !important;
 }
 
-.althea__section-container .et_pb_divider_0:before {
+.althea__section-container div[class^="et_pb_divider_"]:before {
   border-top-color: var(--primary-color) !important;
 }
 
