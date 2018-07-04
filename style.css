@@ -687,7 +687,7 @@ button.pum-form__submit.pum-sub-form-submit {
   text-transform: uppercase !important;
 }
 
-.althea__section-container div[class^="et_pb_divider_"]:before {
+.althea__section-container .et_pb_divider_0:before, .althea__section-container .et_pb_divider_1:before, .althea__section-container .et_pb_divider_2:before, .althea__section-container .et_pb_divider_3:before, .althea__section-container .et_pb_divider_4:before, .althea__section-container .et_pb_divider_5:before {
   border-top-color: var(--primary-color) !important;
 }
 
