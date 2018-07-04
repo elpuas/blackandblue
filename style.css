@@ -698,3 +698,19 @@ button.pum-form__submit.pum-sub-form-submit {
 h1.et_pb_module_header {
   text-transform: uppercase !important;
 } 
+
+.althea__section-header--small h1 {
+  font-size: 6rem;
+  font-weight: normal;
+  letter-spacing: 0.5px !important;
+}
+
+.althea__section-header--small h3 {
+  width: 50%;
+  margin: 0 auto;
+  letter-spacing: 1px !important;
+  font-family: var(--font-secondary) !important;
+  text-transform: initial !important;
+  font-weight: normal;
+  font-size: 16px !important;
+}
