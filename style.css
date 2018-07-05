@@ -102,9 +102,9 @@ h4.et_pb_module_header:before {
   margin-bottom: 25px;
 }
 
-.bb__home--about-grid .et_pb_column_1_3 {
+/* .bb__home--about-grid .et_pb_column_1_3 {
   padding-top: 25px;
-}
+} */
 
 .bb__home--about-grid .et_pb_column_1_3 h3 {
   color: var(--primary-color);
