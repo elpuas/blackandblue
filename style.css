@@ -777,3 +777,7 @@ h1.et_pb_module_header {
   text-transform: uppercase;
   font-size: 2.5rem;
 }
+
+.bb__home--about-grid .et_pb_text_2 h3 {
+  font-size: 6rem !important;
+}
