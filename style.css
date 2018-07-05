@@ -177,6 +177,8 @@ div#sbi_images {
 
 .bb__boats-container .bb__boats-container--hero-title h3 {
   color: #e8e5e0;
+  text-transform: uppercase !important;
+  font-size: 4rem !important;
 }
 
 .bb__boats-container .bb__boats-container--hero-title h3:after {
@@ -812,4 +814,14 @@ h1.et_pb_module_header {
 .bb__container-header .header-content {
   width: 100% !important;
   max-width: initial !important;
+}
+
+.bb__boats-container h2 {
+  font-size: 4rem !important;
+}
+
+@media only screen and ( min-width: 968px) {
+  div#popmake-200 {
+    max-width: 640px !important;
+  }
 }
