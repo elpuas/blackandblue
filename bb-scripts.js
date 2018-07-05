@@ -21,7 +21,7 @@ jQuery(document).ready(function($){
 
 /*
 Slider Script
- */
+ 
 
 (function ($) {
 
@@ -84,6 +84,8 @@ function mn_carousel_init() {
 $(document).ready(function() {
     mn_carousel_init();
 });
+
+*/
 
 /*
  Menu onClick
