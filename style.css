@@ -781,3 +781,30 @@ h1.et_pb_module_header {
 .bb__home--about-grid .et_pb_text_2 h3 {
   font-size: 6rem !important;
 }
+
+.bb__header-section .et_pb_module {
+  max-width: 800px;
+  margin: 1rem;
+}
+
+.bb__header-section .et_pb_module h2 {
+  text-transform: uppercase;
+}
+
+@media only screen and ( max-width: 479px) {
+  .bb__container-module div#tribe-events {
+    padding: 0 20px;
+ }
+
+  .bb__home--about-grid .et_pb_text_2 h3 {
+  font-size: 4rem !important;
+  line-height: 3rem;
+  }
+
+  .bb__container-carousel .owl-nav.arrow_size_medium {
+    width: 100%;
+ }
+  .bb__container-carousel .owl-item .dp_oc_image_content h2 {
+  font-size: 2rem;
+}
+}
