@@ -44,7 +44,7 @@ ul#top-menu li a {
 
 h1.et_pb_module_header {
   font-family: var(--font-primary) !important;
-  font-size: 6rem !important;
+  font-size: 8rem !important;
   text-transform: capitalize !important;
   letter-spacing: -1px !important;
   line-height: 1em !important;
@@ -807,4 +807,9 @@ h1.et_pb_module_header {
   .bb__container-carousel .owl-item .dp_oc_image_content h2 {
   font-size: 2rem;
 }
+}
+
+.bb__container-header .header-content {
+  width: 100% !important;
+  max-width: initial !important;
 }
