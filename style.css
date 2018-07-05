@@ -754,13 +754,26 @@ h1.et_pb_module_header {
 
 /*Style navigation arrows on click*/
 
-.owl-next:active, .owl-prev:active {
+.bb__container-carousel .owl-next:active, .bb__container-carousel .owl-prev:active {
   -webkit-box-shadow: 2px 2px 5px 0 rgba(0, 0, 0, 0.2) inset;
   box-shadow: 2px 2px 5px 0 rgba(0, 0, 0, 0.2) inset;
 }
 
-.owl-nav.arrow_size_medium {
+.bb__container-carousel .owl-nav.arrow_size_medium {
   width: 50%;
   margin: 25px auto;
   text-align: center;
+}
+
+.bb__container-carousel .owl-nav.arrow_size_medium .owl-prev {
+  margin-right: 40px;
+}
+
+.bb__container-carousel .owl-item {
+  text-align: center;
+}
+
+.bb__container-carousel .owl-item .dp_oc_image_content h2 {
+  text-transform: uppercase;
+  font-size: 2.5rem;
 }

@@ -21,7 +21,7 @@ jQuery(document).ready(function($){
 
 /*
 Slider Script
- 
+
 
 (function ($) {
 
@@ -85,11 +85,8 @@ $(document).ready(function() {
     mn_carousel_init();
 });
 
-*/
-
 /*
  Menu onClick
- */
 
 var $et_top_menu = $( 'ul.nav' );
 
@@ -105,3 +102,4 @@ $et_top_menu.find( 'li' ).click( function() {
 });
 
 })(jQuery)
+*/
