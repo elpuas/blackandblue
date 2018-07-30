@@ -15,7 +15,6 @@ jQuery(document).ready(function($){
 
    else {
        eventFired = 1;
-     }
  });
 });
 

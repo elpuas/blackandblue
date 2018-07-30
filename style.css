@@ -836,3 +836,9 @@ h3.tribe-events-month-event-title {
   height: 100%;
   object-fit: cover;
 }
+
+@media only screen and (min-width: 900px;) {
+ .bb__home--about-grid .et_pb_divider_hidden {
+  height: calc(400px / 3);
+ }
+}
