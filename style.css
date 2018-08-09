@@ -67,7 +67,7 @@ h1.et_pb_module_header {
 body:not(.home) p {
   font-weight: 400 !important;
   letter-spacing: 0 !important;
-  color: black;
+  /* color: black; */
   font-size: 16px;
 }
 
@@ -837,7 +837,7 @@ h3.tribe-events-month-event-title {
   object-fit: cover;
 }
 
-@media only screen and (min-width: 900px;) {
+@media only screen and ( min-width: 900px ) {
  .bb__home--about-grid .et_pb_divider_hidden {
   height: calc(400px / 3) !important;
  }

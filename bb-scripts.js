@@ -1,9 +1,10 @@
 jQuery(document).ready(function($){
- console.log("%c Made with  💖 and a lot of  ☕ by el.puas | https://elpuas.com ", "color:#fff;background:#000;");
+ 
+    console.log("%c Made with  💖 and a lot of  ☕ by el.puas | https://elpuas.com ", "color:#fff;background:#000;");
 
  if ($(window).width() < 425) {
      $("#aboutHeading").insertAfter("#aboutImage");
-    }
+     }
 
  $(window).resize(function() {
 
@@ -14,8 +15,10 @@ jQuery(document).ready(function($){
       }
 
    else {
-       eventFired = 1;
- });
+    // Do nothing
+    eventFired = 1;
+   }
+
 });
 
 /*
@@ -99,6 +102,5 @@ $et_top_menu.find( 'li' ).click( function() {
  }
 
 });
-
-})(jQuery)
 */
+})(jQuery)
