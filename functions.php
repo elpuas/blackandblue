@@ -61,7 +61,7 @@ function blackandblue_adminizer(){
       .recurrence-row tribe-datetime-block, div#event_tribe_venue, 
       div#event_tribe_organizer, div#event_url, div#event_cost, 
       .eventBritePluginPlug, div#et_settings_meta_box, div#tagsdiv-post_tag
-      div#tribe_events_event_options  {
+      div#tribe_events_event_options, div#menu-posts-tribe_events ul.wp-submenu-wrap li:nth-child(n+4)  {
         display: none;
       }
       </style>';
