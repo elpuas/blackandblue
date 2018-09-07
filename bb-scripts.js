@@ -34,7 +34,7 @@ jQuery(document).ready(function($){
     $('.single-tribe_events').exists( function() {
         console.log('Aqui estoy!');
         var $postImage = $('.tribe-events-event-image').detach();
-		$('#et-main-area').append($postImage);
+		$('.entry-content').prepend($postImage);
     });
 
 });
