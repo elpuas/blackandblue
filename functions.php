@@ -62,7 +62,7 @@ function blackandblue_adminizer(){
       div#event_tribe_organizer, div#event_url, div#event_cost, 
       .eventBritePluginPlug, div#et_settings_meta_box, div#tagsdiv-post_tag
       div#tribe_events_event_options, div#menu-posts-tribe_events ul.wp-submenu-wrap li:nth-child(n+4)  {
-        display: none;
+        display: none !important;
       }
       </style>';
     }
