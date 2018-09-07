@@ -41,6 +41,25 @@ function add_slug_body_class( $classes ) {
    * Add code to Footer
    */
    add_action('wp_footer', 'bb_call_to_action');
+   
    function bb_call_to_action() {
        echo '<button id="popmake-200" class="popmake-bb-form-generic">Open Modal</button>';
    }
+
+
+add_action('admin_head', 'blackandblue_adminizer');
+
+function blackandblue_adminizer(){
+  
+  global $current_user;
+  
+  get_currentuserinfo();
+  
+  if ( user_can( $current_user, 'owner') ) {
+      echo '<style>
+      .et_pb_toggle_builder_wrapper  {
+        display: none;
+      }
+      </style>';
+    }
+}
