@@ -47,7 +47,7 @@ function add_slug_body_class( $classes ) {
    }
 
 
-add_action('admin_head', 'blackandblue_adminizer');
+add_action('admin_footer', 'blackandblue_adminizer');
 
 function blackandblue_adminizer(){
   
