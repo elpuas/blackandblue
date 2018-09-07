@@ -57,7 +57,7 @@ function blackandblue_adminizer(){
   
   if ( user_can( $current_user, 'owner') ) {
       echo '<style>
-      .et_pb_toggle_builder_wrapper  {
+      .et_pb_toggle_builder_wrapper, .wp-editor-container  {
         display: none;
       }
       </style>';
