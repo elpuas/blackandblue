@@ -37,4 +37,16 @@ jQuery(document).ready(function($){
 		$('.entry-content').prepend($postImage);
     });
 
+    $('.tribe-events-bar').exists( function() {
+
+        var $eventsBar = $('.home .tribe-events-bar');
+
+        setTimeout(function() {
+
+            $eventsBar.css('display', 'none');
+
+            }, 750);
+        
+    });
+
 });
