@@ -18,13 +18,11 @@ jQuery(document).ready(function($){
     // Do nothing
     eventFired = 1;
     }
+   });
 
-    if ($(document).find('.single-tribe_events').lenght == 0 ) {
+    if ( $(document).find('.single-tribe_events').lenght > 0 ) {
+        console.log('Aqui estoy!');
         var $postImage = $('.tribe-events-event-image').detach();
 		$('.entry-content').append($postImage);
-	} else {
-		 // Do nothing
-	}
-
-    });
+    };
 })(jQuery)
