@@ -47,7 +47,7 @@ function add_slug_body_class( $classes ) {
    }
 
 
-add_action('admin_footer', 'blackandblue_adminizer');
+add_action('admin_head', 'blackandblue_adminizer');
 
 function blackandblue_adminizer(){
   
@@ -58,10 +58,10 @@ function blackandblue_adminizer(){
   if ( user_can( $current_user, 'owner') ) {
       echo '<style>
       .et_pb_toggle_builder_wrapper, .wp-editor-container, 
-      .recurrence-row tribe-datetime-block, div#event_tribe_venue, 
-      div#event_tribe_organizer, div#event_url, div#event_cost, 
-      .eventBritePluginPlug, div#et_settings_meta_box, div#tagsdiv-post_tag
-      div#tribe_events_event_options, div#menu-posts-tribe_events ul.wp-submenu-wrap li:nth-child(n+4)  {
+      .recurrence-row tribe-datetime-block, #event_tribe_venue, 
+      #event_tribe_organizer, #event_url, #event_cost, 
+      .eventBritePluginPlug, #et_settings_meta_box, #tagsdiv-post_tag
+      #tribe_events_event_options, #menu-posts-tribe_events ul.wp-submenu-wrap li:nth-child(n+4)  {
         display: none !important;
       }
       </style>';
