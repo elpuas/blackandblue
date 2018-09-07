@@ -32,12 +32,18 @@ jQuery(document).ready(function($){
     };
 
     $('.single-tribe_events').exists( function() {
+
         console.log('Aqui estoy!');
+
         var $postImage = $('.tribe-events-event-image').detach();
-		$('.entry-content').prepend($postImage);
+
+        $('.entry-content').prepend($postImage);
+        
     });
 
     $('.tribe-events-bar').exists( function() {
+
+        console.log('Existe');
 
         var $eventsBar = $('.home .tribe-events-bar');
 
@@ -45,7 +51,7 @@ jQuery(document).ready(function($){
 
             $eventsBar.css('display', 'none');
 
-            }, 750);
+        }, 750);
         
     });
 
