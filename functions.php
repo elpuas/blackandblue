@@ -57,7 +57,11 @@ function blackandblue_adminizer(){
   
   if ( user_can( $current_user, 'owner') ) {
       echo '<style>
-      .et_pb_toggle_builder_wrapper, .wp-editor-container  {
+      .et_pb_toggle_builder_wrapper, .wp-editor-container, 
+      .recurrence-row tribe-datetime-block, div#event_tribe_venue, 
+      div#event_tribe_organizer, div#event_url, div#event_cost, 
+      .eventBritePluginPlug, div#et_settings_meta_box, div#tagsdiv-post_tag
+      div#tribe_events_event_options  {
         display: none;
       }
       </style>';
