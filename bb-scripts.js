@@ -41,18 +41,18 @@ jQuery(document).ready(function($){
         
     });
 
-    $('.tribe-events-bar').exists( function() {
-
-        console.log('Existe');
-
-        var $eventsBar = $('.home .tribe-events-bar');
-
-        setTimeout(function() {
-
-            $eventsBar.css('display', 'none');
-
-        }, 750);
+    setTimeout(function() {
         
-    });
+        $('.tribe-events-bar').exists( function() {
+            
+            console.log('Existe');
+        
+            var $eventsBar = $('.home .tribe-events-bar');
+        
+            $eventsBar.css('display', 'none');
+        
+        });
+        
+    }, 750);
 
 });
