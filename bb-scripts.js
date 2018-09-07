@@ -20,9 +20,21 @@ jQuery(document).ready(function($){
     }
    });
 
-    if ( $(document).find('.single-tribe_events').lenght > 0 ) {
+   // Check if Element Exist in the DOM
+   $.fn.exists = function(callback) {
+    var args = [].slice.call(arguments, 1);
+  
+    if (this.length) {
+      callback.call(this, args);
+    }
+  
+    return this;
+    };
+
+    $('.single-tribe_events').exists( function() {
         console.log('Aqui estoy!');
         var $postImage = $('.tribe-events-event-image').detach();
 		$('.entry-content').append($postImage);
-    };
+    });
+    
 })(jQuery)
