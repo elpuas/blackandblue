@@ -61,7 +61,7 @@ function blackandblue_adminizer(){
       .recurrence-row tribe-datetime-block, #event_tribe_venue, 
       #event_tribe_organizer, #event_url, #event_cost, 
       .eventBritePluginPlug, #et_settings_meta_box, #tagsdiv-post_tag,
-      #tribe_events_event_options, #menu-posts-tribe_events ul.wp-submenu-wrap li:nth-child(n+4), #post-status-info, div#adminmenumain, div#wpadminbar, div#wp-content-editor-tools, .hndle.ui-sortable-handle, button.handlediv, div#minor-publishing, div#tribe_events_catdiv, div#screen-options-link-wrap, div#wpfooter  {
+      #tribe_events_event_options, #menu-posts-tribe_events ul.wp-submenu-wrap li:nth-child(n+4), #post-status-info, div#adminmenumain, div#wpadminbar, div#wp-content-editor-tools, .hndle.ui-sortable-handle, button.handlediv, div#minor-publishing, div#tribe_events_catdiv, div#screen-options-link-wrap, div#wpfooter, div#commentsdiv, div#edit-slug-box  {
         display: none !important;
       }
       </style>';
@@ -82,3 +82,21 @@ function blackandblue_stylesheet() {
   wp_enqueue_style( 'custom-login', get_stylesheet_directory_uri() . '/blackandblue-editor-style.css' );
 }
 add_action( 'login_enqueue_scripts', 'blackandblue_stylesheet' );
+
+
+function tribe_custom_theme_text ( $translation, $text, $domain ) {
+
+	$custom_text = array(
+		'Venue' => 'Location',
+    'Related %s' => 'Similar %s',
+    'Events' => 'Locations'
+	);
+ 
+	// If this text domain starts with "tribe-", "the-events-", or "event-" and we have replacement text
+    	if( (strpos($domain, 'tribe-') === 0 || strpos($domain, 'the-events-') === 0 || strpos($domain, 'event-') === 0) && array_key_exists($translation, $custom_text) ) {
+		$translation = $custom_text[$translation];
+	}
+
+    return $translation;
+}
+add_filter('gettext', 'tribe_custom_theme_text', 20, 3);
