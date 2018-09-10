@@ -38,7 +38,7 @@
     .login form .input, .login form input[type=checkbox], .login input[type=text] {
         background: ;
         border-radius: 10px;
-        color: white;
+        color: blue;
     }
     
     .login #backtoblog, .login #nav {
