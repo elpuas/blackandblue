@@ -55,23 +55,14 @@ jQuery(document).ready(function($){
 
         $('.tribe-events-month-event-title').exists( function(){
 
-            $('a[href*="panama"]').each(function() {
-                console.log('Contains question mark');
-            });
 
-            $('a[href*="bermuda"]').each(function() {
-                console.log('Contains question mark');
-            });
-            
             $(this).find('a').attr('href', 'http://blackandbluefishing.elpuasdev.com/wp-admin/post-new.php?post_type=tribe_events');
-
-            $(this).find('a:contains("Panama")').addClass('panama');
 
             $(this).find('a:contains("Bermuda")').addClass('bermuda');
 
-            $(this).find('a:not(.panama)').css('display', 'none');
+            $(this).find('a:contains("Costa Rica")').addClass('costa-rica');
 
-            $(this).find('a:not(.bermuda)').css('display', 'none');
+            $(this).find('a:not(.bermuda), a:not(.costa-rica)').css('display', 'none');
 
             });
 
