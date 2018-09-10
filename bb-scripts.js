@@ -69,7 +69,9 @@ jQuery(document).ready(function($){
 
             $(this).find('a:contains("Bermuda")').addClass('bermuda');
 
-            $(this).find('a:not(.panama), a:not(.bermuda) ').css('display', 'none');
+            $(this).find('a:not(.panama)').css('display', 'none');
+
+            $(this).find('a:not(.bermuda)').css('display', 'none');
 
             });
 
