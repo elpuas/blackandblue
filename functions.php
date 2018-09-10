@@ -55,7 +55,7 @@ function blackandblue_adminizer(){
   
   get_currentuserinfo();
   
-  if ( user_can( $current_user, 'owner') ) {
+  if ( user_can( $current_user, 'owner') || user_can($current_user, 'captain') ) {
       echo '<style>
       .et_pb_toggle_builder_wrapper, .wp-editor-container, 
       .recurrence-row tribe-datetime-block, #event_tribe_venue, 
@@ -67,3 +67,18 @@ function blackandblue_adminizer(){
       </style>';
     }
 }
+
+/**
+ * Registers an editor stylesheet for the Theme Dashboard.
+ */
+function my_admin_theme_style() {
+  wp_enqueue_style('my-admin-style', get_template_directory_uri() . '/blackandblue-editor-style.css');
+}
+add_action('admin_enqueue_scripts', 'my_admin_theme_style');
+/**
+* Ad Custom Styles to Login Form
+*/
+function blackandblue_stylesheet() {
+  wp_enqueue_style( 'custom-login', get_stylesheet_directory_uri() . '/blackandblue-editor-style.css' );
+}
+add_action( 'login_enqueue_scripts', 'blackandblue_stylesheet' );
