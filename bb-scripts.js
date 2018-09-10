@@ -63,6 +63,8 @@ jQuery(document).ready(function($){
 
             $(this).find('a:contains("Panama")').addClass('panama');
 
+            $(this).find('a:not(.panama)').css('display', 'none');
+
             });
 
     }, 750);
