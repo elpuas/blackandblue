@@ -53,7 +53,7 @@ jQuery(document).ready(function($){
         
         });
 
-        $('tribe-events-month-event-title').exist( function(){
+        $('tribe-events-month-event-title').exists( function(){
 
             console.log('Existe el Titulo');
 
@@ -63,7 +63,5 @@ jQuery(document).ready(function($){
         });
 
     }, 750);
-
-    
 
 });
