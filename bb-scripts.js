@@ -54,11 +54,9 @@ jQuery(document).ready(function($){
         });
 
         $('.tribe-events-month-event-title').exists( function(){
-
-            console.log('Existe el Titulo');
-
-            $(this).find('a').click(function(){
-                window.location = 'http://blackandbluefishing.elpuasdev.com/wp-admin/post-new.php?post_type=tribe_events';
+            
+            $(this).find('a').attr('href', 'http://blackandbluefishing.elpuasdev.com/wp-admin/post-new.php?post_type=tribe_events');
+            
             })
         });
 
