@@ -45,7 +45,7 @@ jQuery(document).ready(function($){
         
         $('#tribe-events-bar').exists( function() {
             
-            console.log('Existe');
+            
         
             var $eventsBar = $('.home #tribe-events-bar');
         
@@ -66,8 +66,8 @@ jQuery(document).ready(function($){
 
             });
 
-        $('tribe-events-calendar').exists( function() {
-            $('.cat_costa-rica-fsihing-trip .tribe-event-featured').css('background', 'pink !important');
+        $('.cat_costa-rica-fsihing-trip.tribe-event-featured').exists( function() {
+            console.log('Existo en el DOM');
         });    
 
     }, 750);
