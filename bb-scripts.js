@@ -57,6 +57,8 @@ jQuery(document).ready(function($){
             
             $(this).find('a').attr('href', 'http://blackandbluefishing.elpuasdev.com/wp-admin/post-new.php?post_type=tribe_events');
 
+            $(this).find('a[href*="panama"]').each().addClass('panama');
+
             });
 
     }, 750);
