@@ -66,6 +66,10 @@ jQuery(document).ready(function($){
 
             });
 
+        $('tribe-events-has-events').exists( function() {
+            $(this).find('.cat_costa-rica-fsihing-trip.tribe-event-featured').css('background-color', 'pink');
+        });    
+
     }, 750);
 
 });
