@@ -56,7 +56,7 @@ jQuery(document).ready(function($){
         $('.tribe-events-month-event-title').exists( function(){
 
 
-            $(this).find('a').attr('href', '');
+            $(this).find('a').attr('href', '#');
 
             $(this).find('a:contains("Bermuda")').addClass('bermuda');
 
