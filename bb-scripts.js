@@ -62,7 +62,7 @@ jQuery(document).ready(function($){
 
             $(this).find('a:contains("Costa Rica")').addClass('costa-rica');
 
-            $(this).find('a:not(.bermuda), a:not(.costa-rica)').css('display', 'none');
+            // $(this).find('a:not(.bermuda), a:not(.costa-rica)').css('display', 'none');
 
             });
 
