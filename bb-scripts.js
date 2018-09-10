@@ -56,7 +56,7 @@ jQuery(document).ready(function($){
         $('.tribe-events-month-event-title').exists( function(){
 
 
-            $(this).find('a').attr('href', 'http://blackandbluefishing.elpuasdev.com/wp-admin/post-new.php?post_type=tribe_events');
+            $(this).find('a').attr('href', '');
 
             $(this).find('a:contains("Bermuda")').addClass('bermuda');
 
@@ -68,6 +68,11 @@ jQuery(document).ready(function($){
 
         $('.cat_costa-rica-fsihing-trip.tribe-event-featured').exists( function() {
             console.log('Hola Aqui estoy');
+
+            if () {
+                
+            }
+
             $('.tribe-events-thismonth').find('.tribe-event-featured').css('background', 'blue !important');
         });    
 
