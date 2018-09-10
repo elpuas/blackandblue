@@ -89,7 +89,8 @@ function tribe_custom_theme_text ( $translation, $text, $domain ) {
 	$custom_text = array(
 		'Venue' => 'Location',
     'Related %s' => 'Similar %s',
-    'Events' => 'Locations'
+    'Events' => 'Locations',
+    'Add New Event' => 'Add Your Name',
 	);
  
 	// If this text domain starts with "tribe-", "the-events-", or "event-" and we have replacement text
