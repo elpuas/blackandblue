@@ -55,9 +55,11 @@ jQuery(document).ready(function($){
 
         $('.tribe-events-ical').exists( function() {
             
-            $(this).attr('href', '/book-form');        
+            $(this).attr('href', '/book-form'); 
+            
+            $(this).text('Book Now!');
         });
 
-    }, 750);
+    }, 250);
 
 });
