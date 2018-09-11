@@ -66,15 +66,14 @@ jQuery(document).ready(function($){
 
             });
 
-        $('.tribe-events-thismonth').exists( function() {
+        $('.tribe-events-calendar').exists( function() {
             
             console.log('Hola Aqui estoy');
 
-            $(this).find('.cat_costa-rica-fsihing-trip.tribe-event-featured').css('display', 'none');
+            $(this).find('.tribe-events-thismonth .cat_costa-rica-fsihing-trip.tribe-event-featured').css('display', 'none');
             
-            if ( $(this).find('.cat_costa-rica-fsihing-trip.tribe-event-featured').length !== 0) {
-                
-                $(this).find('.cat_costa-rica-fsihing-trip:not(.tribe-event-featured)').css('background', 'red')
+            if ( $(this).find('.tribe-events-thismonth .cat_costa-rica-fsihing-trip.tribe-event-featured').length !== 0) {
+
             }
         });    
 
