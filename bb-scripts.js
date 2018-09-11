@@ -60,7 +60,7 @@ jQuery(document).ready(function($){
             $(this).text('Book Now!');
         });
 
-        $('.tribe-events-page-title').replace('Locations for', '' );
+        $('.tribe-events-page-title').replace('Locations', '' );
 
     }, 250);
 
