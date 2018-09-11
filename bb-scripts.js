@@ -52,30 +52,11 @@ jQuery(document).ready(function($){
             $eventsBar.css('display', 'none');
         
         });
-
-        $('.tribe-events-month-event-title').exists( function(){
-
-
-            $(this).find('a').attr('href', '#');
-
-            $(this).find('a:contains("Bermuda")').addClass('bermuda');
-
-            $(this).find('a:contains("Costa Rica")').addClass('costa-rica');
-
-            // $(this).find('a:not(.bermuda), a:not(.costa-rica)').css('display', 'none');
-
-            });
-
-        $('.tribe-events-calendar').exists( function() {
+        
+        $('.tribe-events-tooltip').exists( function() {
             
-            console.log('Hola Aqui estoy');
-
-            $(this).find('.tribe-events-thismonth .cat_costa-rica-fsihing-trip.tribe-event-featured').css('display', 'none');
-            
-            if ( $(this).find('.tribe-events-thismonth .cat_costa-rica-fsihing-trip.tribe-event-featured').length !== 0) {
-
-            }
-        });    
+            $(this).remove()        
+        });
 
     }, 750);
 
