@@ -147,11 +147,11 @@ function bb_custom_dashboard_help() {
 add_filter('tribe_get_events_title', 'my_get_events_title');
 function my_get_events_title($title) {
 if( tribe_is_month() && !is_tax() ) { // The Main Calendar Page
-    return ' ';
+    return '&nbsp; ';
 } elseif( tribe_is_month() && is_tax() ) { // Calendar Category Pages
-    return ' ' . ' &raquo; ' . single_term_title('', false);
+    return '&nbsp;  ' . ' &raquo; ' . single_term_title('', false);
 } elseif( tribe_is_event() && !tribe_is_day() && !is_single() ) { // The Main Events List
-    return ' ';
+    return '&nbsp;  ';
 } elseif( tribe_is_event() && is_single() ) { // Single Events
     return get_the_title();
 } elseif( tribe_is_day() ) { // Single Event Days
