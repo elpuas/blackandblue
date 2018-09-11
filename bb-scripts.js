@@ -52,10 +52,10 @@ jQuery(document).ready(function($){
             $eventsBar.css('display', 'none');
         
         });
-        
-        $('.tribe-events-tooltip').exists( function() {
+
+        $('.tribe-events-ical').exists( function() {
             
-            $(this).remove()        
+            $(this).attr('href', '/book-form');        
         });
 
     }, 750);
