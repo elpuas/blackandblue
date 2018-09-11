@@ -101,3 +101,22 @@ function tribe_custom_theme_text ( $translation, $text, $domain ) {
     return $translation;
 }
 add_filter('gettext', 'tribe_custom_theme_text', 20, 3);
+
+/**
+* Show Calendar
+*/
+
+add_action('wp_dashboard_setup', 'blackandblue_dashboard_widgets');
+
+function blackandblue_dashboard_widgets() {
+
+global $wp_meta_boxes;
+
+ wp_add_dashboard_widget('custom_help_widget', 'Theme Support', 'custom_dashboard_help');
+}
+
+function custom_dashboard_help() {
+
+  echo do_shortcode("[tribe_mini_calendar]");
+
+}
