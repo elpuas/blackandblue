@@ -61,6 +61,4 @@ jQuery(document).ready(function($){
         });
 
     }, 250);
-    
-    $('.tribe-events-page-title').text().replace('Locations', '' );
 });
