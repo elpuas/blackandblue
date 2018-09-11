@@ -112,11 +112,34 @@ function blackandblue_dashboard_widgets() {
 
 global $wp_meta_boxes;
 
- wp_add_dashboard_widget('custom_help_widget', 'Theme Support', 'custom_dashboard_help');
+ wp_add_dashboard_widget('custom_help_widget', 'Monthly Locations Calendar', 'custom_dashboard_help');
 }
 
 function custom_dashboard_help() {
 
   echo do_shortcode("[tribe_mini_calendar]");
+
+}
+
+/*
+ Quick Email Shortcode
+*/
+
+add_action('wp_dashboard_setup', 'bb_dashboard_widgets');
+
+function bb_dashboard_widgets() {
+
+global $wp_meta_boxes;
+
+ wp_add_dashboard_widget('bb_custom_help_widget', 'Quick Email', 'bb_custom_dashboard_help');
+}
+
+function bb_custom_dashboard_help() {
+
+  echo '<div class="mi-dw-not-authed">
+  <h2>Confirmation Emails</h2>
+  <p>Click here to send and email to Member</p>
+  <a href="/wp-admin/tools.php?page=quick_mail_form" class="mi-dw-btn-large">Create Email</a>
+  </div>';
 
 }
