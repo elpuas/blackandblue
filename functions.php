@@ -61,7 +61,7 @@ function blackandblue_adminizer(){
       .recurrence-row tribe-datetime-block, #event_tribe_venue, 
       #event_tribe_organizer, #event_url, #event_cost, 
       .eventBritePluginPlug, #et_settings_meta_box, #tagsdiv-post_tag,
-      #tribe_events_event_options, #menu-posts-tribe_events ul.wp-submenu-wrap li:nth-child(n+4), #post-status-info, div#adminmenumain, div#wpadminbar, div#wp-content-editor-tools, .hndle.ui-sortable-handle, button.handlediv, div#minor-publishing, div#tribe_events_catdiv, div#screen-options-link-wrap, div#wpfooter, div#commentsdiv, div#edit-slug-box, tr.recurrence-row.tribe-datetime-block  {
+      #tribe_events_event_options, #menu-posts-tribe_events ul.wp-submenu-wrap li:nth-child(n+4), #post-status-info, div#wp-content-editor-tools, .hndle.ui-sortable-handle, button.handlediv, div#minor-publishing, div#tribe_events_catdiv, div#screen-options-link-wrap, div#wpfooter, div#commentsdiv, div#edit-slug-box, tr.recurrence-row.tribe-datetime-block  {
         display: none !important;
       }
       </style>';
@@ -149,6 +149,7 @@ function bb_custom_dashboard_help() {
 */
 
 function wpse23007_redirect(){
+
   if( is_admin() && !defined('DOING_AJAX') && ( current_user_can('owner')) ){
     
     wp_redirect('/book-form');
@@ -168,10 +169,10 @@ add_action('after_setup_theme', 'remove_admin_bar');
  
 function remove_admin_bar() {
 
-if (!current_user_can('administrator') && !is_admin()) {
+  if (!current_user_can('administrator') && !is_admin()) {
 
-  show_admin_bar(false);
+    show_admin_bar(false);
 
-  }
+    }
 
 }
