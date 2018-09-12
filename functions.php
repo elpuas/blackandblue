@@ -143,3 +143,17 @@ function bb_custom_dashboard_help() {
   </div>';
 
 }
+
+/*
+ Remove Dashboard Access
+*/
+
+function wpse23007_redirect(){
+  if( is_admin() && !defined('DOING_AJAX') && ( current_user_can('owner')) ){
+    
+    wp_redirect('/book-form');
+    
+    exit;
+  }
+}
+add_action('init','wpse23007_redirect');
