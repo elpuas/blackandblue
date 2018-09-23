@@ -57,7 +57,7 @@ function blackandblue_adminizer(){
   
   if ( user_can( $current_user, 'owner') || $current_user->user_email !== "elpuas@gmail.com" || $current_user->user_email !== "peterfrelikmedia@gmail.com" ) {
       echo '<style>
-       {
+      .wp-first-item ul li:nth-child(3){
         display: none !important;
       }
       </style>';
