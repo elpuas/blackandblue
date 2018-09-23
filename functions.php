@@ -55,7 +55,7 @@ function blackandblue_adminizer(){
   
   get_currentuserinfo();
   
-  if ( user_can( $current_user, 'owner') || user_can($current_user, 'captain') ) {
+  if ( user_can( $current_user, 'owner') || $current_user->user_email !== "elpuas@gmail.com" || $current_user->user_email !== "peterfrelikmedia@gmail.com" ) {
       echo '<style>
       .et_pb_toggle_builder_wrapper, .wp-editor-container, 
       .recurrence-row tribe-datetime-block, #event_tribe_venue, 
