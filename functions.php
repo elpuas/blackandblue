@@ -55,7 +55,7 @@ function blackandblue_adminizer(){
   
   get_currentuserinfo();
   
-  if ( $current_user->user_email !== "elpuas@gmail.com" &&  $current_user->user_email !== "peterfrelikmedia@gmail.com"  ) {
+  if ( $current_user->user_email !== "elpuas@gmail.com" ) {
     echo '<style>
     #menu-dashboard ul.wp-submenu-wrap li:nth-child(3), li#menu-posts, li#menu-media, li#menu-links, li#menu-pages, li#menu-posts-project, li#menu-comments, li#menu-posts-popup, li#toplevel_page_caldera-forms, li#menu-appearance, li#menu-plugins, li#menu-users, li#menu-tools, li#menu-settings, li#toplevel_page_et_divi_options, li#toplevel_page_monsterinsights_settings, li#toplevel_page_sb-instagram-feed, div#tribe-filters  {
       display: none !important;
