@@ -57,7 +57,7 @@ function blackandblue_adminizer(){
 
   if ( 'elpuas@gmail.com' !== $current_user->user_email   &&  'peterfrelikmedia@gmail.com' !== $current_user->user_email  ) {
     echo '<style>
-    #menu-dashboard ul.wp-submenu-wrap li:nth-child(3), li#menu-posts, li#menu-media, li#menu-links, li#menu-pages, li#menu-posts-project, li#menu-comments, li#menu-posts-popup, li#toplevel_page_caldera-forms, li#menu-appearance, li#menu-plugins, li#menu-users, li#menu-tools, li#menu-settings, li#toplevel_page_et_divi_options, li#toplevel_page_monsterinsights_settings, li#toplevel_page_sb-instagram-feed, div#tribe-filters  {
+    #menu-dashboard ul.wp-submenu-wrap li:nth-child(3), li#menu-posts, li#menu-media, li#menu-links, li#menu-pages, li#menu-posts-project, li#menu-comments, li#menu-posts-popup, li#toplevel_page_caldera-forms, li#menu-appearance, li#menu-plugins, li#menu-users, li#menu-tools, li#menu-settings, li#toplevel_page_et_divi_options, li#toplevel_page_monsterinsights_settings, li#toplevel_page_sb-instagram-feed, div#tribe-filters, li#menu-posts-tribe_events ul li:not(.wp-first-item)   {
       display: none !important;
     }
     </style>';
