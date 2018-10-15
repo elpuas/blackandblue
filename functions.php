@@ -62,9 +62,10 @@ function blackandblue_adminizer(){
       display: none !important;
     }
     </style>';
-    show_admin_bar( false );
   } 
 }
+
+add_filter('show_admin_bar', '__return_false');
 
 /**
  * Registers an editor stylesheet for the Theme Dashboard.
