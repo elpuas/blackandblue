@@ -136,7 +136,7 @@ function bb_custom_dashboard_help() {
   echo '<div class="mi-dw-not-authed">
   <h2>Confirmation Emails</h2>
   <p>Click here to send and email to Member</p>
-  <a href="wp-admin/tools.php?page=sefa_email" class="mi-dw-btn-large">Create Email</a>
+  <a href="/wp-admin/tools.php?page=quick_mail_form" class="mi-dw-btn-large">Create Email</a>
   </div>';
 
 }
