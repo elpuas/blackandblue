@@ -62,6 +62,7 @@ function blackandblue_adminizer(){
       display: none !important;
     }
     </style>';
+    show_admin_bar( false );
   } 
 }
 
