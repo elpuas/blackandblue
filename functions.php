@@ -57,13 +57,15 @@ function blackandblue_adminizer(){
 
   if ( 'elpuas@gmail.com' !== $current_user->user_email   &&  'peterfrelikmedia@gmail.com' !== $current_user->user_email  ) {
     echo '<style>
-    #menu-dashboard ul.wp-submenu-wrap li:nth-child(3), li#menu-posts, li#menu-media, li#menu-links, li#menu-pages, li#menu-posts-project, li#menu-comments, li#menu-posts-popup, li#toplevel_page_caldera-forms, li#menu-appearance, li#menu-plugins, li#menu-users, li#menu-tools, li#menu-settings, li#toplevel_page_et_divi_options, li#toplevel_page_monsterinsights_settings, li#toplevel_page_sb-instagram-feed, div#tribe-filters, li#menu-posts-tribe_events ul li:not(.wp-first-item), div#tribe_events_event_options, div#postdivrich, tr.recurrence-row.tribe-recurrence-exclusion-row, table#event_tribe_venue, table#event_tribe_organizer, table#event_url, table#event_cost, .et_pb_toggle_builder_wrapper
+    #menu-dashboard ul.wp-submenu-wrap li:nth-child(3), li#menu-posts, li#menu-media, li#menu-links, li#menu-pages, li#menu-posts-project, li#menu-comments, li#menu-posts-popup, li#toplevel_page_caldera-forms, li#menu-appearance, li#menu-plugins, li#menu-users, li#menu-tools, li#menu-settings, li#toplevel_page_et_divi_options, li#toplevel_page_monsterinsights_settings, li#toplevel_page_sb-instagram-feed, div#tribe-filters, li#menu-posts-tribe_events ul li:not(.wp-first-item), div#tribe_events_event_options, div#postdivrich, tr.recurrence-row.tribe-recurrence-exclusion-row, table#event_tribe_venue, table#event_tribe_organizer, table#event_url, table#event_cost, .et_pb_toggle_builder_wrapper, fieldset.inline-edit-col-right, li#toplevel_page_kvcodes, li#wp-admin-bar-wp-logo, li#wp-admin-bar-site-name, li#wp-admin-bar-updates, li#wp-admin-bar-comments, li#wp-admin-bar-new-content, li#wp-admin-bar-tribe-events
        {
       display: none !important;
     }
     </style>';
   } 
 }
+
+add_filter('show_admin_bar', '__return_false');
 
 /**
  * Registers an editor stylesheet for the Theme Dashboard.
@@ -136,7 +138,7 @@ function bb_custom_dashboard_help() {
   echo '<div class="mi-dw-not-authed">
   <h2>Confirmation Emails</h2>
   <p>Click here to send and email to Member</p>
-  <a href="/wp-admin/tools.php?page=quick_mail_form" class="mi-dw-btn-large">Create Email</a>
+  <a href="/wp-admin/admin.php?page=kv_email&add_new=yes" class="mi-dw-btn-large">Create Email</a>
   </div>';
 
 }
